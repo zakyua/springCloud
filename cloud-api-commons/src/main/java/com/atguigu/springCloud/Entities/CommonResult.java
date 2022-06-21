@@ -6,7 +6,7 @@ import lombok.NoArgsConstructor;
 
 /**
  * @author ChenCheng
- * @create 2022-06-20 22:33
+ * @create 2022-06-20 23:13
  */
 @Data
 @AllArgsConstructor
@@ -19,7 +19,4 @@ public class CommonResult<T>{
     public CommonResult(Integer code, String message){
         this(code, message, null);
     }
-
-
-
 }
