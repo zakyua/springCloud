@@ -1,7 +1,7 @@
 package com.atguigu.SpringCloudTest;
 
 import com.atguigu.springCloud.Entities.Payment;
-import com.atguigu.springCloud.PaymentMain001;
+import com.atguigu.springCloud.PaymentMain8001;
 import com.atguigu.springCloud.dao.PaymentDao;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +15,7 @@ import java.sql.SQLException;
  * @author ChenCheng
  * @create 2022-06-20 22:29
  */
-@SpringBootTest(classes = PaymentMain001.class)
+@SpringBootTest(classes = PaymentMain8001.class)
 public class PaymentTest {
     @Autowired
     private DataSource dataSource;

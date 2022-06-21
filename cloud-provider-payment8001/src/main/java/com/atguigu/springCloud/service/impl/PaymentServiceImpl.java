@@ -1,11 +1,11 @@
 package com.atguigu.springCloud.service.impl;
 
+
 import com.atguigu.springCloud.Entities.Payment;
 import com.atguigu.springCloud.dao.PaymentDao;
 import com.atguigu.springCloud.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 /**
  * @author ChenCheng

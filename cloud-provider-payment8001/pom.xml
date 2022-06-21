@@ -17,22 +17,30 @@
     </properties>
 
 
+
+
+
     <dependencies>
         <!--包含了sleuth+zipkin-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-zipkin</artifactId>
         </dependency>
+
+        <!-- 依赖接口-->
+        <dependency>
+            <groupId>com.atguigu</groupId>
+            <artifactId>cloud-api-commons</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
         <!--eureka-client-->
-
-
         <!-- 注册中心-->
-        <!--
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
-        -->
+
 
 
 
